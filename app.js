@@ -1,9 +1,9 @@
-const diseventKey = document.getElementsByClassName("eventKey");
-const diseventCode = document.getElementsByClassName("eventCode");
-const diseventWhich = document.getElementsByClassName("eventWhich");
+const displayeventKey = document.getElementsByClassName("eventKey");
+const displayeventCode = document.getElementsByClassName("eventCode");
+const displayeventWhich = document.getElementsByClassName("eventWhich");
 
 window.addEventListener("keydown", (e) =>{
-    diseventKey.innerText = e.key;
-    diseventCode.innerText = e.keyCode;
+    displayeventKey.innerText = e.key;
+    displayeventCode.innerText = e.keyCode;
 
 })
