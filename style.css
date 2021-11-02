@@ -4,7 +4,15 @@
   box-sizing: border-box;
 }
 body {
+  background: linear-gradient(180deg, lightskyblue, #0377fc) no-repeat center
+    fixed;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 20px;
-  background: lightblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  margin: 0 auto;
+  overflow: hidden;
 }
