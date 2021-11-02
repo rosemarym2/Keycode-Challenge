@@ -11,5 +11,5 @@ document.addEventListener(`keydown`, (event) =>{
     displayEventKeyCode.textContent = `${eventKey}`;
     displayEventKey.innerHTML = `<p> ${eventKey} </p>`;
     displayEventCode.innerHTML = `<p> ${eventCode} </p>`;
-    displayEventCode.innerHTML= `<p> ${eventWhich} </p>`;
+    displayEventWhich.innerHTML= `<p> ${eventWhich} </p>`;
 });
