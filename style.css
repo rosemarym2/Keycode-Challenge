@@ -16,6 +16,24 @@ body {
   margin: 0 auto;
   overflow: hidden;
 }
-.container{
+
+p {
+  padding: 20px;
+  font-size: 25px;
+}
+
+.eventKey,
+.eventCode,
+.eventWhich {
   background-color: #cedded;
+  border: 1px solid lightslategrey;
+  box-shadow: 3px 3px 4px lightslategrey;
+  font-size: 18px;
+  display: inline-flex;
+  padding: 20px;
+  margin: 25px;
+  font-weight: bold;
+  flex-direction: column;
+  min-width: 250px;
+  position: relative;
 }
