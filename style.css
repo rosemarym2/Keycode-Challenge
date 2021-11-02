@@ -16,3 +16,6 @@ body {
   margin: 0 auto;
   overflow: hidden;
 }
+.container{
+  background-color: #cedded;
+}
