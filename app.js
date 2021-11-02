@@ -1,11 +1,15 @@
-const displayEventKeyCode = document.getElementsById("keyCode");
-const displayEventKey = document.getElementsById("eventKey");
-const displayEventCode = document.getElementsById("eventCode");
-const displayEventWhich = document.getElementsById("eventWhich");
+const displayEventKeyCode = document.getElementById("keyCode");
+const displayEventKey = document.getElementById("eventKey");
+const displayEventCode = document.getElementById("eventCode");
+const displayEventWhich = document.getElementById("eventWhich");
 
-window.addEventListener(`keydown`, (event) =>{
-    displayEventKeyCode.innerHTML = `${event.keyCode}`;
-    displayEventKey.innerHTML = `${event.Key}`;
-    displayEventCode.innerHTML = `${event.Code}`;
-    displayEventCode.innerHTML = `${event.Which}`;
+document.addEventListener(`keydown`, (event) =>{
+  let eventKey = event.key;
+  let eventCode = event.code;
+  let eventWhich = event.which;
+  
+    displayEventKeyCode.textContent = `${eventKey}`;
+    displayEventKey.innerHTML = `<p> ${eventKey} </p>`;
+    displayEventCode.innerHTML = `<p> ${eventCode} </p>`;
+    displayEventCode.innerHTML= `<p> ${eventWhich} </p>`;
 });
