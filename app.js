@@ -7,8 +7,11 @@ document.addEventListener(`keydown`, (event) =>{
   let eventKey = event.key;
   let eventCode = event.code;
   let eventWhich = event.which;
+  if (event.which == 32) {
+    displayEventKeyCode.textContent = ("Spacebar");
+  }
   
-    displayEventKeyCode.textContent = `${eventKey}`;
+    displayEventKeyCode.textContent = `${eventWhich}`;
     displayEventKey.innerHTML = `<p> ${eventKey} </p>`;
     displayEventCode.innerHTML = `<p> ${eventCode} </p>`;
     displayEventWhich.innerHTML= `<p> ${eventWhich} </p>`;
