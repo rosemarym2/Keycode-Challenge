@@ -8,6 +8,10 @@ h1 {
   padding-bottom: 350px;
 }
 
+#keyCode {
+  font-size: 200px;
+}
+
 body {
   background: linear-gradient(180deg, lightskyblue, #0377fc) no-repeat center
     fixed;
@@ -27,9 +31,7 @@ p {
   font-size: 25px;
 }
 
-.eventKey,
-.eventCode,
-.eventWhich {
+.box {
   background-color: #cedded;
   border: 1px solid lightslategrey;
   box-shadow: 3px 3px 4px lightslategrey;
