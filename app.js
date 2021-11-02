@@ -3,9 +3,9 @@ const displayEventKey = document.getElementsById("eventKey");
 const displayEventCode = document.getElementsById("eventCode");
 const displayEventWhich = document.getElementsById("eventWhich");
 
-window.addEventListener(`keydown`, (e) =>{
-    displayEventKeyCode.textContent= `${e.keyCode}`;
-    displayEventKey.textContent = `${e.Key}`;
-    displayEventCode.textContent = `${e.Code}`;
-    displayEventCode.textContent = `${e.Which}`;
+window.addEventListener(`keydown`, (event) =>{
+    displayEventKeyCode.innerHTML = `${event.keyCode}`;
+    displayEventKey.innerHTML = `${event.Key}`;
+    displayEventCode.innerHTML = `${event.Code}`;
+    displayEventCode.innerHTML = `${event.Which}`;
 });
