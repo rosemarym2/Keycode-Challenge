@@ -3,6 +3,11 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+h1 {
+  padding-bottom: 350px;
+}
+
 body {
   background: linear-gradient(180deg, lightskyblue, #0377fc) no-repeat center
     fixed;
